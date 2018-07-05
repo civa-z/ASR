@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Basic demo of WavRecorder</title>
+    <link type="text/css" rel="stylesheet" href="static/css/basic.css">
+    <link type="text/css" rel="stylesheet" href="static/css/style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1><span class="basic">Basic demo of</span><span class="project-name">WavRecorder</span></h1>
+
+    <script type="text/javascript" src="static/js/flash-audio-recorder/jquery.js"></script>
+    <script type="text/javascript" src="static/js/flash-audio-recorder/swfobject.js"></script>
+    <script type="text/javascript" src="static/js/flash-audio-recorder/flash-audio-recorder.js"></script>
+    <script type="text/javascript" src="static/js/context-audio-recorder/context-audio-recorder.js"></script>
+    <script type="text/javascript" src="static/js/common/common-wav.js"></script>
+    <script type="text/javascript" src="static/js/wav-to-flac/wav-to-flac.js"></script>
+    <script type="text/javascript" src="static/js/audio-recognizer/audio-recognizer.js"></script>
+    <script type="text/javascript" src="static/js/asr.js"></script>
+
+    <section class="recorder-container">
+        <div  class="text-box">
+            <p0>Recorder Tester</p0>
+        </div>
+
+        <div class="recorder">
+            <button class="flash-recorder" id="recorderButton">
+                <img src="static/images/record.png" alt="Record">
+            </button>
+            <div class="level">
+                <div class="progress"></div>
+            </div>
+            <div id="flashcontentwrapper" >
+                <div id="flashcontent" >
+                    <p>Your browser must have JavaScript enabled and the Adobe Flash Player installed.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-box">
+            <b id="recognizeResult">Result will be show here</b>
+        </div>
+
+    </section>
+</div>
+
+</body>
+</html>
